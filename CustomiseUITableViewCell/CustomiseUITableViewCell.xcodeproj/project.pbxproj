@@ -37,6 +37,14 @@
 		02018CD418DDBF4300A2F3E5 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02018CD318DDBF4300A2F3E5 /* SimpleTableCell.xib */; };
 		02018CD718DDC0FA00A2F3E5 /* SimpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02018CD618DDC0FA00A2F3E5 /* SimpleTableViewCell.m */; };
 		02018CD918DDCCD400A2F3E5 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02018CD818DDCCD400A2F3E5 /* recipes.plist */; };
+		02018CE018DDD27F00A2F3E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CDE18DDD27F00A2F3E5 /* Default.png */; };
+		02018CE118DDD27F00A2F3E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CDE18DDD27F00A2F3E5 /* Default.png */; };
+		02018CE218DDD27F00A2F3E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CDF18DDD27F00A2F3E5 /* Default@2x.png */; };
+		02018CE318DDD27F00A2F3E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CDF18DDD27F00A2F3E5 /* Default@2x.png */; };
+		02018CE618DDD36800A2F3E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CE418DDD36800A2F3E5 /* Default.png */; };
+		02018CE718DDD36800A2F3E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CE418DDD36800A2F3E5 /* Default.png */; };
+		02018CE818DDD36800A2F3E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CE518DDD36800A2F3E5 /* Default@2x.png */; };
+		02018CE918DDD36800A2F3E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02018CE518DDD36800A2F3E5 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +94,10 @@
 		02018CD518DDC0FA00A2F3E5 /* SimpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewCell.h; sourceTree = "<group>"; };
 		02018CD618DDC0FA00A2F3E5 /* SimpleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewCell.m; sourceTree = "<group>"; };
 		02018CD818DDCCD400A2F3E5 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		02018CDE18DDD27F00A2F3E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02018CDF18DDD27F00A2F3E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02018CE418DDD36800A2F3E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02018CE518DDD36800A2F3E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,8 @@
 		02018C7218DDABC400A2F3E5 = {
 			isa = PBXGroup;
 			children = (
+				02018CDE18DDD27F00A2F3E5 /* Default.png */,
+				02018CDF18DDD27F00A2F3E5 /* Default@2x.png */,
 				02018C8418DDABC400A2F3E5 /* CustomiseUITableViewCell */,
 				02018CA318DDABC400A2F3E5 /* CustomiseUITableViewCellTests */,
 				02018C7D18DDABC400A2F3E5 /* Frameworks */,
@@ -168,6 +182,8 @@
 				02018CC618DDBEB400A2F3E5 /* vegetable_curry.jpg */,
 				02018C9018DDABC400A2F3E5 /* Main.storyboard */,
 				02018C9618DDABC400A2F3E5 /* Images.xcassets */,
+				02018CE418DDD36800A2F3E5 /* Default.png */,
+				02018CE518DDD36800A2F3E5 /* Default@2x.png */,
 				02018C8518DDABC400A2F3E5 /* Supporting Files */,
 			);
 			path = CustomiseUITableViewCell;
@@ -282,6 +298,7 @@
 				02018CCB18DDBEB400A2F3E5 /* hamburger.jpg in Resources */,
 				02018CCC18DDBEB400A2F3E5 /* instant_noodle_with_egg.jpg in Resources */,
 				02018CD418DDBF4300A2F3E5 /* SimpleTableCell.xib in Resources */,
+				02018CE618DDD36800A2F3E5 /* Default.png in Resources */,
 				02018CCD18DDBEB400A2F3E5 /* japanese_noodle_with_pork.jpg in Resources */,
 				02018CCE18DDBEB400A2F3E5 /* mushroom_risotto.jpg in Resources */,
 				02018CD218DDBEB400A2F3E5 /* vegetable_curry.jpg in Resources */,
@@ -289,8 +306,11 @@
 				02018CC718DDBEB400A2F3E5 /* full_breakfast.jpg in Resources */,
 				02018CC918DDBEB400A2F3E5 /* ham_and_cheese_panini.jpg in Resources */,
 				02018CD018DDBEB400A2F3E5 /* starbucks_coffee.jpg in Resources */,
+				02018CE018DDD27F00A2F3E5 /* Default.png in Resources */,
+				02018CE218DDD27F00A2F3E5 /* Default@2x.png in Resources */,
 				02018C9718DDABC400A2F3E5 /* Images.xcassets in Resources */,
 				02018CBA18DDBE6300A2F3E5 /* creme_brelee.jpg in Resources */,
+				02018CE818DDD36800A2F3E5 /* Default@2x.png in Resources */,
 				02018C8918DDABC400A2F3E5 /* InfoPlist.strings in Resources */,
 				02018CD918DDCCD400A2F3E5 /* recipes.plist in Resources */,
 				02018CCF18DDBEB400A2F3E5 /* noodle_with_bbq_pork.jpg in Resources */,
@@ -303,7 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02018CE318DDD27F00A2F3E5 /* Default@2x.png in Resources */,
 				02018CA818DDABC400A2F3E5 /* InfoPlist.strings in Resources */,
+				02018CE918DDD36800A2F3E5 /* Default@2x.png in Resources */,
+				02018CE118DDD27F00A2F3E5 /* Default.png in Resources */,
+				02018CE718DDD36800A2F3E5 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
