@@ -64,7 +64,7 @@
     
     cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
-    cell.prepTimeLabel.text = @"prep time default";
+    cell.prepTimeLabel.text = @"30min";
     
     return cell;
 }
@@ -78,6 +78,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+ 
+    //To deselect any row by index path add the following line of code
+    //[tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    //add selected mark to the selected row
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    
+    UIAlertView *messageAlert = [[UIAlertView alloc] initWithTitle:@"Row selected" message:@"You've selected a row" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [messageAlert show];
 }
 
 /*
