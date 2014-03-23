@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4F63631-97AD-4036-B325-3EE4FF45777E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyStore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9969F6A-5DB0-4F25-A7AA-E92A95D79744</key>
+		<string>https://github.com/rajeevprasanna/iosAppcodaExamples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyStore/MyStore.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9969F6A-5DB0-4F25-A7AA-E92A95D79744</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rajeevprasanna/iosAppcodaExamples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9969F6A-5DB0-4F25-A7AA-E92A95D79744</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9969F6A-5DB0-4F25-A7AA-E92A95D79744</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosAppcodaExamples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
